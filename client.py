@@ -15,9 +15,8 @@ def ExecuteCommand(command):
     output = os.popen(command).read()
     return output
 
-#192.168.1.5
 def main():
-    host = "192.168.100.18"  # ip который будем использовать
+    host = ""  # ip который будем использовать
     port = 7000  # порт
     while True:
         while True:
